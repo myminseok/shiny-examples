@@ -1,5 +1,16 @@
+
+
+```
+cf login -a api.pcfdemo.net --skip-ssl-validation
+git clone https://github.com/myminseok/shiny-examples
+cd 050-kmeans-example
+cf push
+```
+
 shiny-examples
 ==============
+
+
 
 This is a collection of Shiny examples. You can see them in action on
 `http://gallery.shinyapps.io/example-name` where `example-name` is the directory
