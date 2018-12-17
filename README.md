@@ -1,7 +1,7 @@
 
 
 ```
-cf login -a api.pcfdemo.net --skip-ssl-validation
+cf login -a api.system.<pcfsystem> --skip-ssl-validation
 git clone https://github.com/myminseok/shiny-examples
 cd 050-kmeans-example
 cf push
